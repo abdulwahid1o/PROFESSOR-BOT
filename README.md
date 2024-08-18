@@ -122,13 +122,14 @@ broadcast - to broadcast a message to all Eva Maria users
 
 ## TELAGRAM SUPPORT 
 
-* [![MKN BOTZ](https://img.shields.io/static/v1?label=MKN&message=BOTZ&color=critical)](https://t.me/mkn_bots_updates)
+* [![WE ARE FAMILY](https://img.shields.io/badge/We_Are-Family-brightgreen?style=flat&logo=We%20are%20Family%20
+)](https://t.me/+KNPs3PL_WvU5OTM1)
 
 ## Credit 💞
 
-* [![TEAM EVA-MARIA](https://img.shields.io/static/v1?label=TEAM&message=EVA-MARIA&color=yellow)](https://t.me/TeamEvamaria)
+* [![TEAM WE ARE FAMILY](https://img.shields.io/badge/We_Are-Family-brightgreen?style=flat&logo=We%20are%20Family%20)](https://t.me/+KNPs3PL_WvU5OTM1)
 
-* [![BASE REPO](https://img.shields.io/static/v1?label=BASE&message=REPO&color=green)](https://t.me/TeamEvamaria)
+* [![BASE REPO](https://img.shields.io/badge/We_Are-Family-brightgreen?style=flat&logo=We%20are%20Family%20)](https://t.me/+KNPs3PL_WvU5OTM1)
 
 
 ## Disclaimer

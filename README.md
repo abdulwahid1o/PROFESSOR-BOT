@@ -125,11 +125,6 @@ broadcast - to broadcast a message to all Eva Maria users
 * [![WE ARE FAMILY](https://img.shields.io/badge/We_Are-Family-brightgreen?style=flat&logo=We%20are%20Family%20
 )](https://t.me/+KNPs3PL_WvU5OTM1)
 
-## Credit 💞
-
-* [![TEAM WE ARE FAMILY](https://img.shields.io/badge/We_Are-Family-brightgreen?style=flat&logo=We%20are%20Family%20)](https://t.me/+KNPs3PL_WvU5OTM1)
-
-* [![BASE REPO](https://img.shields.io/badge/We_Are-Family-brightgreen?style=flat&logo=We%20are%20Family%20)](https://t.me/+KNPs3PL_WvU5OTM1)
 
 
 ## Disclaimer

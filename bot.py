@@ -1,7 +1,5 @@
 import os, math, logging, datetime, pytz, logging.config
-import os
-PORT = int(os.environ.get("PORT", 5000))
-# Pass PORT to your app's run method if it has one, e.g., app.run(port=PORT)
+
 from aiohttp import web
 from pyrogram import Client, types
 from database.users_chats_db import db
@@ -74,7 +72,6 @@ class Bot(Client):
 
         
 Bot().run()
-
 
 
 

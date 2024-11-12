@@ -107,7 +107,7 @@
         "START_MESSAGE": {
             "description": "bot start message text [ {user} = bot startd user name {bot} = your bot name",
             "value": "<b>✨ Hᴇʟʟᴏ {user}.\n\nMʏ Nᴀᴍᴇ Is {bot}.\n\nI Cᴀɴ Pʀᴏᴠɪᴅᴇ All type of Medical Related Materials For You Just Type the Exact Name Of Any PDF/Video & See the Magic</b>",
-            "required": false
+            "required": true
         },       
         "FORCE_SUB_TEXT": {
             "description": "custom force sub text (use ** = bold / use ``=  mono)",

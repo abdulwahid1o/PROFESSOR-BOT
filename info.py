@@ -17,7 +17,7 @@ BOT_TOKEN = environ['BOT_TOKEN']
 
 # Bot settings
 WEB_SUPPORT = bool(environ.get("WEBHOOK", 'False')) # for web support on/off
-PICS = (environ.get('PICS' ,'https://graph.org/file/2ab1531a294ab79eb15ba.jpg https://graph.org/file/3586f33119174c2d22b37.jpg https://graph.org/file/69e0678bce4630a4d0298.jpg' )).split()
+PICS = (environ.get('PICS' ,'https://graph.org/file/2ab1531a294ab79eb15ba.jpg https://graph.org/file/69e0678bce4630a4d0298.jpg')).split()
 UPTIME = time.time()
 
 # Admins, Channels & Users
@@ -73,4 +73,4 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).
 MELCOW_NEW_USERS = is_enabled(environ.get('MELCOW_NEW_USERS', "True"), True)
 PROTECT_CONTENT = is_enabled(environ.get('PROTECT_CONTENT', "False"), False)
 PUBLIC_FILE_STORE = is_enabled(environ.get('PUBLIC_FILE_STORE', "True"), True)
-LOG_MSG = "{} Iêœ± Rá´‡sá´›á´€Ê€á´›á´‡á´…....âœ¨\n\nðŸ—“ï¸ Dá´€á´›á´‡ : {}\nâ° TÉªá´á´‡ : {}\n\nðŸ–¥ï¸ Rá´‡á´á´©: {}\nðŸ‰ Vá´‡Ê€sÉªá´É´: {}\nðŸ§¾ LÉªá´„á´‡É´êœ±á´‡: {}\nÂ©ï¸ Cá´á´©ÊÊ€ÉªÉ¢Êœá´›: {}"
+LOG_MSG = "{} Iꜱ Rᴇsᴛᴀʀᴛᴇᴅ....✨\n\n🗓️ Dᴀᴛᴇ : {}\n⏰ Tɪᴍᴇ : {}\n\n🖥️ Rᴇᴏᴩ: {}\n🉐 Vᴇʀsɪᴏɴ: {}\n🧾 Lɪᴄᴇɴꜱᴇ: {}\n©️ Cᴏᴩʏʀɪɢʜᴛ: {}"

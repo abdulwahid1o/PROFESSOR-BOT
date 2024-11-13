@@ -1,13 +1,13 @@
 {
-    "name": "PROFESSOR-BOT",
-    "description": "The Telegram Autofilter Bot",
+    "name": "WE_ARE_FAMILY",
+    "description": "The Telegram Medicomaterial Bot",
     "logo": "https://graph.org/file/b7e8484f6395a180b6380.jpg",
     "keywords": ["Telegram", "auto-filter", "MrMKN"],
     "repository": "https://github.com/MrMKN/PROFESSOR-BOT",
     "env": {
         "WEBHOOK": {
             "description": "True/False if your server is web support required? the value is True else False",
-            "value": "True",
+            "value": "False",
             "required": true
         },
         "BOT_TOKEN": {
@@ -81,12 +81,12 @@
         },
         "IMDB": {
             "description": "Imdb, the view of information when making True/False",
-            "value": "True",
+            "value": "False",
             "required": false     
         },
         "PM_IMDB": {
             "description": "pm Imdb, the view of information when making True/False",
-            "value": "True",
+            "value": "False",
             "required": false     
         },
         "IMDB_TEMPLATE": {
@@ -164,7 +164,6 @@
             {"url": "heroku/python"}
         ]      
 }
-
 
 
 

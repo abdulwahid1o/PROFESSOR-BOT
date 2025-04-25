@@ -85,13 +85,13 @@ async def pm_spoll_tester(bot, query):
     if not movies:
         return await query.answer("Yᴏᴜ Aʀᴇ Usɪɴɢ Oɴᴇ Oғ Mʏ Oʟᴅ Mᴇssᴀɢᴇs, Pʟᴇᴀsᴇ Sᴇɴᴅ Tʜᴇ Rᴇǫᴜᴇsᴛ Aɢᴀɪɴ", show_alert=True)
     movie = movies[(int(movie_))]
-    await query.answer('Cʜᴇᴄᴋɪɴɢ Fᴏʀ Mᴏᴠɪᴇ Iɴ Dᴀᴛᴀʙᴀsᴇ...')
+    await query.answer('Cʜᴇᴄᴋɪɴɢ Fᴏʀ 𝙿𝚍𝚏/𝙵𝚒𝚕𝚎 Iɴ Dᴀᴛᴀʙᴀsᴇ...')
     files, offset, total_results = await get_search_results(movie, offset=0, filter=True)
     if files:
         k = (movie, files, offset, total_results)
         await pm_AutoFilter(bot, query, k)
     else:
-        k = await query.message.edit('Tʜɪs Mᴏᴠɪᴇ Nᴏᴛ Fᴏᴜɴᴅ Iɴ Dᴀᴛᴀʙᴀsᴇ')
+        k = await query.message.edit('Tʜɪs 𝙿𝚍𝚏/𝙵𝚒𝚕𝚎 Nᴏᴛ Fᴏᴜɴᴅ Iɴ Dᴀᴛᴀʙᴀsᴇ')
         await asyncio.sleep(10)
         await k.delete()
 
@@ -209,7 +209,7 @@ async def pm_spoll_choker(msg):
     g_s += await search_gagala(msg.text)
     gs_parsed = []
     if not g_s:
-        k = await msg.reply("I Cᴏᴜʟᴅɴ'ᴛ Fɪɴᴅ Aɴʏ Mᴏᴠɪᴇ Iɴ Tʜᴀᴛ Nᴀᴍᴇ", quote=True)
+        k = await msg.reply("I Cᴏᴜʟᴅɴ'ᴛ Fɪɴᴅ Aɴʏ 𝙿𝚍𝚏/𝙵𝚒𝚕𝚎 Iɴ Tʜᴀᴛ Nᴀᴍᴇ", quote=True)
         await asyncio.sleep(10)
         return await k.delete()
     regex = re.compile(r".*(imdb|wikipedia).*", re.IGNORECASE)  # look for imdb / wiki results
